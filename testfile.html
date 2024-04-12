@@ -1,1 +1,33 @@
+<html lang="en"><script src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/content/location/location.js" id="eppiocemhmnlbhjplcgkofciiegomcon"></script><script src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/libs/extend-native-history-api.js"></script><script src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/libs/requests.js"></script><body class="home" onload="registerSW()">
 
+
+
+
+
+
+
+    <main>
+        
+
+        <form class="hvr-bounce-in custom-cursor-default-hover" id="uv-form">
+            <input class="hvr-bounce-in" id="uv-search-engine" value="https://www.google.com/search?q=%s" type="hidden">
+            <input class="proxy" id="uv-address" type="text" placeholder="Enter a URL or Search">
+        </form>
+
+        
+
+        
+
+    </main>
+
+    <script src="uv/uv.bundle.js" defer=""></script>
+    <script src="uv/uv.config.js" defer=""></script>
+    <script src="/search.js" defer=""></script>
+    <script src="/index.js" defer=""></script>
+    <script src="register-sw.js" async=""></script>
+
+    <script src="hotkey.js"></script>
+    
+
+
+</body></html>
